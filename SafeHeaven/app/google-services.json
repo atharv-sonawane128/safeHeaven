@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "405056479180",
+    "firebase_url": "https://cookie-6bcdf-default-rtdb.firebaseio.com",
+    "project_id": "cookie-6bcdf",
+    "storage_bucket": "cookie-6bcdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405056479180:android:3f2bed7f81eb63b8208769",
+        "android_client_info": {
+          "package_name": "com.studentanger.cookie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405056479180-is7i84usbuonfbk7blsjuel9q9mdgn96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMHuUZ2oT9yC8Tkdy8EueRHTa4-n6XFYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405056479180-is7i84usbuonfbk7blsjuel9q9mdgn96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405056479180:android:c9450d1178fa94ca208769",
+        "android_client_info": {
+          "package_name": "com.studentanger.safeheaven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405056479180-is7i84usbuonfbk7blsjuel9q9mdgn96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMHuUZ2oT9yC8Tkdy8EueRHTa4-n6XFYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405056479180-is7i84usbuonfbk7blsjuel9q9mdgn96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
