@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".guest"
+    android:background="@color/bg"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guest Registration"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="serif"
+        android:layout_margin="10dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/user"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/curve"
+        android:layout_marginTop="30dp"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+
+        android:textColorHint="#565353"
+        />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Phone Number"
+        android:paddingLeft="20dp"
+        android:background="@drawable/curve"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+
+        android:textSize="20dp"
+        android:textColorHint="#565353"
+        />
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/curve"
+        android:hint="Address"
+        android:textColor="@color/black"
+
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColorHint="#565353"
+        />
+    <EditText
+        android:id="@+id/reason"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:hint="Reason of visit"
+        android:background="@drawable/curve"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+
+        android:textSize="20dp"
+        android:textColorHint="#565353"
+
+        />
+    <EditText
+        android:id="@+id/personVisit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:hint="Person to visit"
+        android:textColor="@color/black"
+
+        android:textColorHint="#565353"
+        android:background="@drawable/curve"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="REGISTER"
+        android:textSize="20dp"
+        android:fontFamily="times"
+        android:backgroundTint="@color/bg1"
+        android:textColor="@color/black"
+        />
+
+
+
+</LinearLayout>
